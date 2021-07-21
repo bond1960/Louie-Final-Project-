@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Work+Sans:wght@100&display=swap");
+
+body {
+  background: indigo;
+}
+
+#logoBar {
+  background: linear-gradient(Chartreuse, indigo);
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100vw;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+  border-radius: 400px;
+}
+
+.inback {
+  padding-top: 300px;
+  background: linear-gradient(indigo, Chartreuse);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(199, 80, 193);
+  font-family: monospace;
+}
+
+#titlefont {
+  font-size: 100px;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  color: purple;
+}
+
+img {
+  border: 25px double;
+  margin: 20px;
+  padding: 2vw;
+  border-color: lime;
+  border-radius: 50%;
+}
+
+p {
+  border: 3px double;
+}
+
+p > span {
+  color: ##C750B3;
+  font-size: 40px;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
+
+#bio {
+  margin:40px;
+}
+
+div: hover {
+  background-color: #79C750;
+}
+.container {
+
+  display: flex;
+  border: 5px solid red;
+  justify-content: center;
+}
+
+.container:hover {
+  background: linear-gradient(indigo, Chartreuse);
+}
+
+button {
+  padding: 85px;
+  border: 25px black groove;
+}
+
+button:hover {
+  width: 15vw;
+  height: 15vw;
+  background-image: url(https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif);
+  background-size: cover;
+  background-postion: center;
+}
+
+#youtubeLink {
+  text-align: center;
+  padding: 30px;
+}
+
+#youtubeLink:hover {
+  background: linear-gradient(Chartreuse, Indigo);
+}
